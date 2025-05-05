@@ -51,14 +51,14 @@ button:hover {
     overflow: hidden;
     border-radius: 16px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
-    background-color: #000; /* sfondo nero per immagini con 'contain' */
+    background-color: #000;
 }
 
 .slide {
     position: absolute;
     width: 100%;
     height: 100%;
-    object-fit: contain; /* mostra tutta l’immagine senza tagliarla */
+    object-fit: contain;
     object-position: center center;
     opacity: 0;
     transition: opacity 1s ease-in-out;
@@ -88,3 +88,10 @@ footer {
     padding: 20px;
     color: #c5c6c7;
 }
+
+/* 🌐 RESPONSIVE */
+@media (max-width: 768px) {
+    .slider-container {
+        width: 90%;
+        height: auto;
+        aspect-ratio
