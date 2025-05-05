@@ -38,38 +38,32 @@ button:hover {
 }
 
 /* SLIDER SECTION */
-.slide {
-    object-fit: cover;
-    object-position: center center; /* centrata orizzontalmente e verticalmente */
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-    border-radius: 16px;
-    background-color: #000; /* utile per evitare sfondo trasparente */
+.slider {
+    text-align: center;
+    padding: 20px;
 }
-
 
 .slider-container {
     position: relative;
-    width: 650px;
-    height: 700px;
+    width: 700px;
+    height: 650px;
     margin: 0 auto;
     overflow: hidden;
     border-radius: 16px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    background-color: #000; /* sfondo nero per immagini con 'contain' */
 }
 
 .slide {
     position: absolute;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain; /* mostra tutta l’immagine senza tagliarla */
+    object-position: center center;
     opacity: 0;
     transition: opacity 1s ease-in-out;
     border-radius: 16px;
+    background-color: #000;
 }
 
 .slide.active {
