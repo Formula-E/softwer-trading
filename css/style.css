@@ -38,10 +38,19 @@ button:hover {
 }
 
 /* SLIDER SECTION */
-.slider {
-    text-align: center;
-    padding: 20px;
+.slide {
+    object-fit: cover;
+    object-position: center center; /* centrata orizzontalmente e verticalmente */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    border-radius: 16px;
+    background-color: #000; /* utile per evitare sfondo trasparente */
 }
+
 
 .slider-container {
     position: relative;
