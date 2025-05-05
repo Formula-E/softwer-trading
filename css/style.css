@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #0e0f12;
@@ -7,44 +6,22 @@ body {
     padding: 0;
     text-align: center;
 }
+
 header {
     padding: 50px 20px;
     background: linear-gradient(135deg, #1f2833, #0b0c10);
-    .slider {
-    text-align: center;
-    padding: 20px;
 }
 
-.slider-container {
-    position: relative;
-    width: 800px; /* nuova larghezza */
-    height: 450px; /* nuova altezza */
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-.slide {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* fa in modo che l'immagine riempia senza deformarsi */
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-}
-
-.slide.active {
-    opacity: 1;
-}
-
-}
 h1 {
     color: #66fcf1;
     font-size: 3em;
 }
+
 h2 {
     color: #45a29e;
-    margin: 700px 0;
+    margin: 40px 0 20px 0;
 }
+
 button {
     background: #66fcf1;
     color: #0b0c10;
@@ -55,28 +32,45 @@ button {
     margin-top: 20px;
     transition: 0.3s;
 }
+
 button:hover {
     background: #45a29e;
 }
-.slider-container {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+
+/* SLIDER SECTION */
+.slider {
+    text-align: center;
     padding: 20px;
 }
+
+.slider-container {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
 .slide {
-    display: none;
-    width: 300px;
-    height: 200px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    border-radius: 12px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    border-radius: 16px;
 }
+
 .slide.active {
-    display: block;
+    opacity: 1;
 }
+
 form {
     margin-top: 20px;
 }
+
 input, textarea {
     width: 80%;
     max-width: 400px;
@@ -85,6 +79,7 @@ input, textarea {
     border-radius: 6px;
     border: none;
 }
+
 footer {
     background-color: #1f2833;
     padding: 20px;
