@@ -17,8 +17,8 @@ header {
 
 .slider-container {
     position: relative;
-    width: 1280px;
-    height: 720px;
+    width: 800px; /* nuova larghezza */
+    height: 450px; /* nuova altezza */
     margin: 0 auto;
     overflow: hidden;
 }
@@ -27,6 +27,7 @@ header {
     position: absolute;
     width: 100%;
     height: 100%;
+    object-fit: cover; /* fa in modo che l'immagine riempia senza deformarsi */
     opacity: 0;
     transition: opacity 1s ease-in-out;
 }
