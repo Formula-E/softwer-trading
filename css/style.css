@@ -45,8 +45,8 @@ button:hover {
 
 .slider-container {
     position: relative;
-    width: 1280px;
-    height: 720px;
+    width: 700px;
+    height: 650px;
     margin: 0 auto;
     overflow: hidden;
     border-radius: 16px;
