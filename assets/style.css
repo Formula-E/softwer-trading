@@ -23,17 +23,17 @@ body {
 
 /* Titoli */
 h1 {
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin: 0;
 }
 
 h2 {
-    font-size: 1,5em;
+    font-size: 1em;
     margin: 0.5em 0;
 }
 
 p {
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1.5;
 }
 /* Sezione vantaggi */
