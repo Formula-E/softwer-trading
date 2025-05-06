@@ -1,0 +1,212 @@
+/* Reset base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: #fff;
+}
+
+/* Sezione HERO */
+.hero {
+    text-align: center;
+    padding: 3em 1em;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+/* Titoli */
+h1 {
+    font-size: 4.5em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 3em;
+    margin: 0.5em 0;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+/* Sezione vantaggi */
+.highlights h2 {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+.highlights p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+/* Sezione form */
+.form-section {
+    background: #111;
+    padding: 2em 1em;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+/* Sezione prova */
+.proof {
+    background: #222;
+    padding: 2em 1em;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+/* Sezione video */
+.video-section {
+    background: #333;
+    padding: 2em 1em;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+/* Sezione FAQ */
+.faq {
+    background: #444;
+    padding: 2em 1em;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+/* Sezione testimonianze */
+.testimonials {
+    background: #555;
+    padding: 2em 1em;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+/* Sezione contatti */
+.contact {
+    background: #666;
+    padding: 2em 1em;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+/* Sezione footer */
+footer {
+    background: #777;
+    padding: 2em 1em;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+/* Pulsante */
+button {
+    background: #00e676;
+    padding: 1em 2em;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 20px;
+}
+button:hover {
+    background: #00b248;
+}
+button:focus-visible {
+    outline: 2px solid #00e676;
+}
+/* Pulsante CTA */
+
+/* Link */
+a {
+    color: #00e676;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Pulsante CTA */
+.cta-button {
+    background: #00e676;
+    padding: 1em 2em;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background: #00b248;
+}
+
+.cta-button:focus-visible {
+    outline: 2px solid #00e676;
+}
+
+/* Sezioni generali */
+.highlights, .form-section, .proof, .video-section {
+    padding: 2em 1em;
+    text-align: center;
+}
+
+/* Lista vantaggi */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 0.5em 0;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, button {
+    padding: 1em;
+    margin: 0.5em 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #00e676;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #00b248;
+}
+
+/* Footer */
+footer {
+    background: #002e6b;
+    color: white;
+    text-align: center;
+    padding: 2em 1em;
+}
+
+/* Video */
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Ridimensionamento video verticale su desktop */
+@media (min-width: 768px) {
+    .video-section video {
+        width: 360px;
+    }
+}
+/* Ridimensionamento video orizzontale su desktop */
